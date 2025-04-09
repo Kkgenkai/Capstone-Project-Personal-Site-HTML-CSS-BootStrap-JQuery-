@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone Project 2 - Personal Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!--navbar-->
+    <nav>
+        <div class="nav-background container-fluid">
+            <nav class="navbar navbar-expand-lg py-4 mb-0 mx-5">
+              <div class="container-fluid">
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none navbar-brand">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-person-arms-up" viewBox="0 0 16 16">
+                    <path d="M8 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                    <path d="m5.93 6.704-.846 8.451a.768.768 0 0 0 1.523.203l.81-4.865a.59.59 0 0 1 1.165 0l.81 4.865a.768.768 0 0 0 1.523-.203l-.845-8.451A1.5 1.5 0 0 1 10.5 5.5L13 2.284a.796.796 0 0 0-1.239-.998L9.634 3.84a.7.7 0 0 1-.33.235c-.23.074-.665.176-1.304.176-.64 0-1.074-.102-1.305-.176a.7.7 0 0 1-.329-.235L4.239 1.286a.796.796 0 0 0-1.24.998l2.5 3.216c.317.316.475.758.43 1.204Z"/>
+                  </svg>
+                  <strong>My Personal Site</strong>
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <ul class="nav nav-pills ms-auto">
+                    <li class="nav-item"><a href="/" class="nav-links-active nav-link" aria-current="page">Home</a></li>
+                    <li class="nav-item"><a href="#resume" class="nav-links nav-link">Resume</a></li>
+                    <li class="nav-item"><a href="#myProjects" class="nav-links nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#aboutMe" class="nav-links nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="#aboutMe" class="nav-links nav-link">Contact Me</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+    </nav>
+
+    <!--Header-->
+    <header class="header-background">
+        <div class="header-background container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row align-items-center g-5 py-5">
+              <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">HI, I'm Jone Doe</h1>
+                <h2>Web Developer</h2>
+                <p class="lead">With over 5 years of web app develpoment exeprience under my belt.</p>
+              </div>
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="./iconfinder-8-avatar-2754583_120515.webp" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="250" height="250" loading="lazy">
+              </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Content-->
+    <main>
+        <!--Resume Section-->
+        <section id="resume">
+            <div class="container col-xxl-8 px-4 py-5 my-5">
+                <div class="row flex-lg-row-reverse align-items-center py-5">
+                  <div class="col-10 col-sm-8 col-lg-6 shadow-lg">
+                    <img style="border-radius: 10px;" src="https://www.guvi.in/blog/wp-content/uploads/2024/05/1-1.webp" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                  </div>
+                  <div class="col-lg-6 px-5">
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Resume</h1>
+                    <p class="lead"><Strong><em>MERN Stack Developer,</em></Strong> Proficient in HTML, CSS, JavaScript and React For Frontend. NodeJS, ExpressJS and Mongodb on Backend.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button type="button" class="btn btn-primary btn-dark btn-lg px-4 me-md-2">View Full Resume</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+
+        <!--My Projects Section-->
+        <section id="myProjects" class="projects-section">
+            <section class="pt-5 text-center container">
+                <div class="row py-lg-5">
+                    <div class="col-lg-12 col-md-8 mx-auto">
+                        <h1 class="fw-light fw-bold projectsH1">My Projects</h1>
+                        <p class="lead text-body-secondary">Below is a collection of projects I had done either Personal Projects or For Clients.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="album projects-section pb-5">
+                <div class="container projects-section">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <div class="col">
+                            <div class="card shadow-sm" style="height: 100%;">
+                                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://assets.digitalocean.com/articles/66983/React_Dark_BG.png" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"/>
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <p class="card-text">React Personal Project.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm" style="height: 100%;">
+                                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://miro.medium.com/v2/resize:fit:1400/1*23BkSGzcN3cBxvTuf0zFfg.png" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"/>
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <p class="card-text">Express Personal Project.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm" style="height: 100%;">
+                                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRa9iGfJLZyMIOFCYGnEqZzpebw3jXXw-u1Q8BzTPCEDQLbAyr78_MWBR9B4OEMr-m2BA&usqp=CAU" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"/>
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <p class="card-text">MongoDB Personal Project.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm" style="height: 100%;">
+                                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ff10pjx8jeq116dcq3j29.jpg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"/>
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <p class="card-text">PassportJS Personal Project.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm" style="height: 100%;">
+                                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYesav8DRn-7_QA_dSMrVZ_fPN8_SERaKuhO3RqmQ1JXCsX7rVX-OZKK7QBOHbxlegk_8&usqp=CAU" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"/>
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <p class="card-text">JQuery Personal Project.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm" style="height: 100%;">
+                                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://assets.digitalocean.com/articles/66983/React_Dark_BG.png" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"/>
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <p class="card-text">React Based Client Project.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--About Me Section-->
+        <section id="aboutMe">
+            <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+                <div class="row align-items-start py-5">
+                    <div class="col-lg-7 text-center text-lg-start">
+                        <img class="mb-3" style="border-radius: 10px;" src="https://img.freepik.com/free-photo/medium-shot-man-carrying-backpack_23-2149137146.jpg?semt=ais_hybrid" width="80%">
+                        <h1 class="display-4 fw-bold lh-2 text-body-emphasis mb-3">About Me</h1>
+                        <p class="col-lg-10 fs-4">When I am not coding I enjoy by travelling the world.</p>
+                    </div>
+
+                    <div class="col-md-10 mx-auto col-lg-5">
+                        <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+                            <div class="form-floating mb-3">
+                                <h2>Get In Touch</h2>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingPassword" placeholder="Name">
+                                <label for="floatingPassword">Name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Email</label>
+                            </div>
+                            <button class="w-100 btn btn-lg btn-primary btn-dark" type="submit">Submit</button>
+                            <hr class="my-4">
+                            <small class="text-body-secondary">By clicking Submit, you agree to the terms of use.</small>
+                        </form>
+                  </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+    <!--Footer-->
+    <div class="container-fluid footer-bg py-3">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 px-5">
+            <p class="col-md-4 mb-0">© 2024 Jone Doe, Inc</p>
+        
+            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" class="bi bi-person-arms-up" viewBox="0 0 16 16">
+                    <path d="M8 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                    <path d="m5.93 6.704-.846 8.451a.768.768 0 0 0 1.523.203l.81-4.865a.59.59 0 0 1 1.165 0l.81 4.865a.768.768 0 0 0 1.523-.203l-.845-8.451A1.5 1.5 0 0 1 10.5 5.5L13 2.284a.796.796 0 0 0-1.239-.998L9.634 3.84a.7.7 0 0 1-.33.235c-.23.074-.665.176-1.304.176-.64 0-1.074-.102-1.305-.176a.7.7 0 0 1-.329-.235L4.239 1.286a.796.796 0 0 0-1.24.998l2.5 3.216c.317.316.475.758.43 1.204Z"/>
+                </svg>
+            </a>
+        
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="/" class="nav-link footer-content px-2">Home</a></li>
+                <li class="nav-item"><a href="#resume" class="nav-link footer-content px-2">Resume</a></li>
+                <li class="nav-item"><a href="#myProjects" class="nav-link footer-content px-2">My Projects</a></li>
+                <li class="nav-item"><a href="#aboutMe" class="nav-link footer-content px-2">About Me</a></li>
+            </ul>
+        </footer>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="./index.js"></script>
+</body>
+</html>

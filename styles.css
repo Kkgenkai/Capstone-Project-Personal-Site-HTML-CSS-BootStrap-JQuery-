@@ -1,0 +1,49 @@
+.nav-background {
+    background-color: #F1EFEC;
+}
+
+.nav-links{
+    color: #030303;
+    font-weight: bold;
+}
+
+.nav-links-active {
+    background-color: #181818;
+    color: #F1EFEC;
+    font-weight: bold;
+}
+
+.nav-links-active:hover {
+    background-color: #424649;
+    color: #F1EFEC;
+}
+
+.nav-links-active:active{
+    background-color: #181818;
+    color: #F1EFEC;
+}
+
+.header-background{
+    background-color: #F1EFEC;
+    color: #181818;
+}
+
+
+.projects-section{
+    background-color: #f0e6dc;
+    color: #112947;
+}
+.projectsH1{
+    background: linear-gradient(#123d6e, #a78e78);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-bg{
+    background-color: #123458;
+    color: #F1EFEC;
+}
+.footer-content{
+    color: #F1EFEC;
+}
